@@ -524,6 +524,7 @@ $kss-vertical-rhythm      : $kss-font-size * 1.5;
   }
 
   .kss-modifier__wrapper {
+    background-color: $kss-colors-foreground;
     border: 1px solid #ccc;
     padding: 0 10px 10px;
   }
@@ -548,6 +549,7 @@ $kss-vertical-rhythm      : $kss-font-size * 1.5;
     border: 1px solid #ccc;
   }
   .kss-modifier__default-name {
+    color: $kss-colors-background;
     font-weight: bold;
     margin-bottom: ($kss-vertical-rhythm / 2);
   }
@@ -556,6 +558,7 @@ $kss-vertical-rhythm      : $kss-font-size * 1.5;
     margin-right: 20px;
   }
   .kss-modifier__name {
+    color: $kss-colors-background;
     float: left;
     padding-right: 10px;
     font-weight: bold;
@@ -564,6 +567,7 @@ $kss-vertical-rhythm      : $kss-font-size * 1.5;
     margin-left: 20px;
   }
   .kss-modifier__description {
+    color: $kss-colors-background;
     margin-bottom: ($kss-vertical-rhythm / 2);
   }
   .is-fullscreen .kss-modifier__description {
