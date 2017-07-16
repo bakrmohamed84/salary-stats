@@ -1,4 +1,5 @@
 {
+  "builder": "./custom-builder",
   "source": "../src",
   "title": "Salary Stats Style Guide",
   "css": [

@@ -12,6 +12,7 @@ install:
   - npm install -g @angular/cli
   - npm install -g karma
   - npm install
+  - npm run styleguide:install
 
 before_script:
   - "export DISPLAY=:99.0"
